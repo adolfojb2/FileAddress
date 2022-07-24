@@ -4,6 +4,7 @@ from tkinter import filedialog
 from tkinter import font
 from tkinter import *
 raiz = tkinter.Tk()
+raiz.config(padx="5px",pady="5px")
 raiz.title("File Address")
 #se agrega el icono de la ventana
 img = PhotoImage(file='C:\\Users\\BetinBracamontes\\OneDrive - Universidad del Magdalena\\2022\\PYTHON\\FileAddress\\cadena.png')
